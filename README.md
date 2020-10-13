@@ -2,10 +2,10 @@
 
 **기존에 구현한 가계부 프로젝트를 웹팩, 바벨 등을 이용하여 환경을 구성하여 구현합니다.**
 
--FE 프레임워크 - React
--BE 프레임워크 - Express
--DB - MySQL
--개발환경 - Webpack + babel + eslint + prettier
+- FE 프레임워크 - React
+- BE 프레임워크 - Express
+- DB - MySQL
+- 개발환경 - Webpack + babel + eslint + prettier
 
 ## ToDoList
 - [ ] 이미 구축되어있는 create-react-app을 사용하는 것이 아닌 환경을 직접 설정하여 FE 개발환경에 대한 이해를 높인다.
