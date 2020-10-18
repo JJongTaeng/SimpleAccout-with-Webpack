@@ -1,11 +1,15 @@
-import React from 'react'
-import "./App.css"
+import React from 'react';
+import Login from './Login';
+
+
+
 
 const App = () => {
   return (
-    <div className="App">
-      <h1>Hello World</h1>
+    <div>
+      <Login id="아이디" password="패스워드">간단가계부</Login>
     </div>
-  )
+   )
 }
-export default App;
+
+export default App

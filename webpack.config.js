@@ -51,7 +51,15 @@ module.exports = {
     contentBase: path.join(__dirname, "dist"),
     publicPath: '/',
     overlay: true,
+    port: 3030,
     stats: "errors-only",
     hot: true,
+    before: (app, server, compiler) => {
+      app.get('/user', (req, res)=>{
+        res.end(JSON.stringify([
+          {id: 'intae', pwd: '0000'}
+        ]))
+      })
+    }
   }
 }
